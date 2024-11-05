@@ -1,0 +1,39 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+body {
+    background: linear-gradient(to top, #09203f 0%, #537895 100%);
+    height: 100vh;
+}   
+.container {
+    display: flex;
+    margin: 1rem;
+    padding: 1rem;
+    justify-content: space-evenly;
+    margin-top: 20rem;
+}
+.styledInput {
+    padding: 0.5rem;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(202, 187, 187);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+#btn {
+    color: rgb(202, 187, 187);
+    outline: 0;
+    border: 2px solid currentcolor;
+    transition: 0.3s ease all;
+    background-color:#537895;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 12px 25px;
+    display: inline-block;
+    cursor: pointer;
+}
+#btn:hover {
+    color:#537895;
+    border-color: 
+transparent;
+    background-color: 
+    rgb(202, 187, 187)
+}
